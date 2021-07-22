@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+font-family: 'Quicksand', sans-serif;
+background-color: #f0efef;
+
+}
+
+header{
+    background-color: white;
+
+}
+
+nav{
+    background-color: #F9F9F9;
+}
+
+/* .navbar div {
+    background-color: royalblue;
+} */
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(43, 41, 41);
+    padding: 8px;
+    /* height: 200px; */
+}
+
+.navbar a:hover{
+    transform: scale(1.06);
+    color: blue;
+    font-weight: bold;
+}
+
+.isicontent {
+    padding: 18px;;
+}
+.isicontent .category{
+    text-align: left;
+    font-size: 16px;
+    color: red;
+}
+
+.isicontent .judul h3{
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.isicontent .date{
+    margin-top: 9px;
+    text-align: left;
+    font-size: 14px;
+    color: #535151c4;
+}
+
+.btn-danger{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    
+    height: 40px;
+    width: 140px;
+    font-size: 14px; 
+}
+
+.event {
+ width: 320px;
+ font-weight: bold;
+}
+
+.content img:hover{
+    transform: scale(1.019);
+}
